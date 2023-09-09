@@ -1,7 +1,10 @@
 import shutil
 import os
 
-target_folder = "path"
+target_folder = input("Enter a path : ")
+
+
+
 extensions = {
     item.split(".")[-1]
     for item in os.listdir(target_folder)
